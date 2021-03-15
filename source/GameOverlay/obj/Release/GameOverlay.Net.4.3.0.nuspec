@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GameOverlay.Net</id>
+    <version>4.3.0</version>
+    <authors>michel-pi</authors>
+    <owners>michel-pi</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/michel-pi/GameOverlay.Net</projectUrl>
+    <description>An easy to use Direct2D1 drawing library with the ability to create transparent click-through windows.</description>
+    <copyright>Copyright (c) 2019 michel-pi</copyright>
+    <tags>GameOverlay.Net overlay game click-through direct2d sharpdx drawing window directx transparent michel-pi yato yatodev</tags>
+    <repository url="https://github.com/michel-pi/GameOverlay.Net" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="SharpDX.Direct2D1" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.DirectInput" version="4.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="SharpDX.Direct2D1" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.DirectInput" version="4.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7">
+        <dependency id="SharpDX.Direct2D1" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.DirectInput" version="4.2.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="SharpDX.Direct2D1" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.DirectInput" version="4.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\net40\GameOverlay.dll" target="lib\net40\GameOverlay.dll" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\net40\GameOverlay.xml" target="lib\net40\GameOverlay.xml" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\net45\GameOverlay.dll" target="lib\net45\GameOverlay.dll" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\net45\GameOverlay.xml" target="lib\net45\GameOverlay.xml" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\net47\GameOverlay.dll" target="lib\net47\GameOverlay.dll" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\net47\GameOverlay.xml" target="lib\net47\GameOverlay.xml" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\netstandard2.0\GameOverlay.dll" target="lib\netstandard2.0\GameOverlay.dll" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\GameOverlay\bin\Release\netstandard2.0\GameOverlay.xml" target="lib\netstandard2.0\GameOverlay.xml" />
+    <file src="C:\Users\IVAN\Desktop\PapeOverlay\source\LICENSE" target="LICENSE" />
+  </files>
+</package>

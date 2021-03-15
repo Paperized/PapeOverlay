@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\IVAN\\Desktop\\PapeOverlay\\source\\GameOverlay\\GameOverlay.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\IVAN\\Desktop\\PapeOverlay\\source\\GameOverlay\\GameOverlay.csproj": {
+      "version": "4.3.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IVAN\\Desktop\\PapeOverlay\\source\\GameOverlay\\GameOverlay.csproj",
+        "projectName": "GameOverlay.Net",
+        "projectPath": "C:\\Users\\IVAN\\Desktop\\PapeOverlay\\source\\GameOverlay\\GameOverlay.csproj",
+        "packagesPath": "C:\\Users\\IVAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IVAN\\Desktop\\PapeOverlay\\source\\GameOverlay\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IVAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "net45",
+          "net47",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          },
+          "net45": {
+            "projectReferences": {}
+          },
+          "net47": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "SharpDX.Direct2D1": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          }
+        },
+        "net45": {
+          "dependencies": {
+            "SharpDX.Direct2D1": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          }
+        },
+        "net47": {
+          "dependencies": {
+            "SharpDX.Direct2D1": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          }
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SharpDX.Direct2D1": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
